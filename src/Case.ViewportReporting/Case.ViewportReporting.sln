@@ -7,6 +7,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Case.ViewportReporting.Shar
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Case.ViewportReporting.2023", "Case.ViewportReporting.2023\Case.ViewportReporting.2023.vbproj", "{A1F8439A-C5C2-471B-A049-647172C3A461}"
 EndProject
+Project(""{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"") = "Case.ViewportReporting.2026", "Case.ViewportReporting.2026\Case.ViewportReporting.2026.vbproj", "{A1F8439A-C5C2-471B-A049-647172C3A461}"
+EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Case.ViewportReporting.2021", "Case.ViewportReporting.2021\Case.ViewportReporting.2021.vbproj", "{26048183-F5F8-40AE-96DF-79129E55F5B4}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Case.ViewportReporting.2022", "Case.ViewportReporting.2022\Case.ViewportReporting.2022.vbproj", "{BDA1608D-3185-4B34-B90C-AD2AEA2BB066}"

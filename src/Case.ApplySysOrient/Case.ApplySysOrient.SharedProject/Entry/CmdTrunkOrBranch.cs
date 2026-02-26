@@ -26,11 +26,11 @@ namespace Case.ApplySysOrient.Entry
 		{
 
 		  // Version
-		  if (!commandData.Application.Application.VersionName.Contains("2021"))
+		  if (!commandData.Application.Application.VersionName.Contains("202"))
 		  {
 
 			 // Failure
-			 message = "";
+			 message = "This Add-In requires Revit 2020 or later.";
 			 return Result.Failed;
 
 		  }

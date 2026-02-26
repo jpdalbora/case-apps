@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Case.ReportGroupsByView.2023", "Case.ReportGroupsByView.2023\Case.ReportGroupsByView.2023.csproj", "{0ACBCDF9-D03F-47C8-A50B-F2A66581D32B}"
 EndProject
+Project(""{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"") = "Case.ReportGroupsByView.2026", "Case.ReportGroupsByView.2026\Case.ReportGroupsByView.2026.csproj", "{0ACBCDF9-D03F-47C8-A50B-F2A66581D32B}"
+EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Case.ReportGroupsByView.SharedProject", "Case.ReportGroupsByView.SharedProject\Case.ReportGroupsByView.SharedProject.shproj", "{695A2D82-DD93-4712-99CA-95978AAD6D94}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Case.ReportGroupsByView.2022", "Case.ReportGroupsByView.2022\Case.ReportGroupsByView.2022.csproj", "{B5ED3506-2771-440B-965A-FCF0E4C8AD93}"

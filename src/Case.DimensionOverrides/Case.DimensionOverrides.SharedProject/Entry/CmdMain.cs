@@ -22,14 +22,14 @@ namespace Case.DimensionOverrides.Entry
       try
       {
         // Version
-        if (!commandData.Application.Application.VersionName.Contains("2021"))
+        if (!commandData.Application.Application.VersionName.Contains("202"))
         {
           // Failure
           using (TaskDialog td = new TaskDialog("Cannot Continue"))
           {
             td.TitleAutoPrefix = false;
             td.MainInstruction = "Incompatible Version of Revit";
-            td.MainContent = "This Add-In was built, please contact CASE for assistance.";
+            td.MainContent = "This Add-In requires Revit 2020 or later. Please contact CASE for assistance.";
             td.Show();
           }
           return Result.Cancelled;
