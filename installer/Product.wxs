@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*"
+           Name="Case Plugins for Revit 2026"
+           Language="1033"
+           Version="1.0.0.0"
+           Manufacturer="Case"
+           UpgradeCode="550e8400-e29b-41d4-a716-446655440001">
+
+    <Package InstallerVersion="200"
+             Compressed="yes"
+             InstallScope="perMachine"
+             Platform="x64" />
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+
+    <MediaTemplate EmbedCab="yes"
+                   MaximumUncompressedMediaSize="200" />
+
+    <!-- Feature definitions -->
+    <Feature Id="ProductFeature"
+             Title="Case Plugins for Revit 2026"
+             Level="1"
+             Description="Installs all 44 Case plugins for Revit 2026">
+      <ComponentRef Id="PluginComponent" />
+      <ComponentRef Id="RegistryComponent" />
+    </Feature>
+
+    <!-- UI for installation wizard -->
+    <UIRef Id="WixUI_InstallDir" />
+    <UIRef Id="WixUI_ErrorProgressText" />
+
+    <!-- License agreement (optional) -->
+    <WixVariable Id="WixUILicenseRtf" Value="License.rtf" />
+
+    <!-- Installation directory -->
+    <StandardDirectory Id="ProgramFilesFolder">
+      <Directory Id="INSTALLFOLDER" Name="Case Plugins for Revit 2026" />
+    </StandardDirectory>
+
+  </Product>
+</Wix>
